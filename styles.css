@@ -543,9 +543,7 @@ h3 {
     
 }
 .footer ul li a{
-    color: #fff;
-   
-   
+    color: #fff; 
 }
 .footer ul li a:hover::after{
     width: 100%;
@@ -570,7 +568,19 @@ h3 {
 .nit{
     font-size: 25px;
 }
-
+@media(max-width:785px){
+    .footer{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer ul{
+        padding:2.3rem 0rem 0rem 0rem;
+    }
+    .copyright{
+        margin-top:2rem;
+    }
+}
 
 
 
