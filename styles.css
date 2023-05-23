@@ -8,7 +8,8 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
- /*******************************NAVIGATION BAR*****************************************/
+
+/*******************************NAVIGATION BAR*****************************************/
 nav {
     z-index: 10;
     display: flex;
@@ -37,9 +38,8 @@ nav img {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 9px;
     position: relative;
-
 }
 
 .nav-links ul li a {
@@ -49,7 +49,7 @@ nav img {
     padding: 0px 13px 16px 16px;
 }
 
-.nav-links ul li::after {
+.nav-links ul li:not(.committees,.no )::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -63,6 +63,54 @@ nav img {
     width: 100%;
 }
 
+nav .sub-menu{
+    display: none;
+}
+nav ul li:hover .sub-menu{
+    display:block;
+    position:absolute;
+    background-color: rgb(101, 17, 17);
+    color:white;
+    margin-top:1rem;
+    margin-left:-1rem;
+    padding:1rem 1rem 1rem 1rem;
+    border-radius: 3px;
+}
+nav ul li:hover .sub-menu ul{
+    display:block;
+    /* text-align:left; */
+    margin:-1.2rem 1rem 0rem 0rem;
+    /* margin-top:-1.50rem;
+    margin-left:0rem; */
+    /* padding:0rem; */
+}
+nav ul li:hover .sub-menu ul li{
+    width:100px;
+    padding:1.6rem 0rem 0rem 0rem;
+    background: transparent;
+    text-align: center;
+    /* border-bottom: #ffffff43 solid 2px;   */
+}
+nav ul li:hover .sub-menu ul li:first-child{
+    padding-bottom: 1rem;
+}
+nav ul li:hover .sub-menu ul li:last-child{
+    padding-top:1rem;
+    border-bottom: none;
+}
+
+.committees ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.committees .sub-menu ul li:hover{
+    border:none;
+}
 nav .fa {
     display: none;
 }
@@ -80,9 +128,10 @@ nav .fa {
     background-position: center;
     background-size: cover;
     display: inline-block;
-   
+
 
 }
+
 .text-box h1 {
     font-size: 70px;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
@@ -115,7 +164,7 @@ nav .fa {
     background: transparent;
     position: relative;
     cursor: pointer;
-    margin-top:-2rem;
+    margin-top: -2rem;
 }
 
 .hero-btn:hover {
@@ -129,32 +178,39 @@ nav .fa {
 }
 
 /*************************************BOXES******************************/
-.container{
+.container {
     position: relative;
-    top:30rem;
+    top: 30rem;
 }
-.row{
+
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.box{
+
+.box {
     padding: 0 0 25px 0;
     margin: 5px 0 0 5px;
     border-radius: 10px;
-    box-shadow: 0 0 15px -5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease 0s;
-    color:black;
+    color: black;
     /* border: 1px solid rgba(101, 17, 17, 0.699);   */
-}   
-.box,.box.cyan{
+}
+
+.box,
+.box.cyan {
     width: 20rem;
 }
-.box:hover{ 
-    border:none;
-    background: rgba(107, 17, 17); }
-.box .title{
+
+.box:hover {
+    border: none;
+    background: rgba(107, 17, 17);
+}
+
+.box .title {
     border-radius: 10px 10px 0 0;
     background-color: #162254;
     color: white;
@@ -166,18 +222,24 @@ nav .fa {
     margin: 0 0 10px;
     transition: all 0.3s ease 0s;
 }
-.box .description{
+
+.box .description {
     color: #999;
     margin: 0 0 15px;
     transition: all 0.3s ease 0s;
 }
-.box ul li{
-    padding:1rem ;
+
+.box ul li {
+    padding: 1rem;
 }
-.box:hover .title{
+
+.box:hover .title {
     color: #fff;
 }
-.box:hover .description{ color: rgba(255,255,255,0.8); }
+
+.box:hover .description {
+    color: rgba(255, 255, 255, 0.8);
+}
 
 
 /***************************MEDIA QUERIES**************************/
@@ -192,7 +254,7 @@ nav .fa {
 
     .text-box .venue {
         font-size: 15px;
-        
+
     }
 
     .nav-links ul li {
@@ -222,7 +284,52 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
+
+    nav .sub-menu{
+        display: none;
+    }
+    nav ul li:hover .sub-menu{
+        display:block;
+        position:relative;
+        background-color: #0a0428;
+        color:white;
+        /* margin-top:0rem; */
+        /* margin-left:-1rem; */
+        /* padding:1rem 1rem 1rem 1rem; */
+        /* border-radius: 3px; */
+    }
+    nav ul li:hover .sub-menu ul{
+        display:block;
+        /* text-align:left; */
+        margin:-4.5rem 1rem -2rem 0rem;
+        /* margin-top:-1.50rem;
+        margin-left:0rem; */
+        /* padding:0rem; */
+    }
+    nav ul li:hover .sub-menu ul li{
+        width:100px;
+        padding:2rem 0rem 0rem 0rem;
+        margin:0rem 0rem 0rem 0rem;
+        background: transparent;
+        text-align: center;
+        /* border-bottom: #ffffff43 solid 2px;   */
+    }
+    nav ul li:hover .sub-menu ul li:last-child{
+        margin-top:-0.4rem;
+    }
     
+    .committees ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #ffffff;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .committees .sub-menu ul li:hover{
+        border:none;
+    }
     .clocks>div {
         margin-bottom: .5rem;
     }
@@ -238,12 +345,14 @@ nav .fa {
         height: 40vh;
 
     }
-
     .header .text-box .conf {
         padding-top: 3rem;
-
+    }
+    nav .sub-menu{
+        z-index: 2;
     }
 }
+
 @media (max-width:1317px) {
 
     .header .text-box {
@@ -254,6 +363,7 @@ nav .fa {
         margin-top: 8rem;
     }
 }
+
 @media(min-width:1500px) {
     nav img {
         width: 93px;
@@ -261,6 +371,7 @@ nav .fa {
         margin: -12px 1px -15px -60px;
     }
 }
+
 @media (max-width:1300px) {
     nav img {
         width: 93px;
@@ -278,7 +389,7 @@ nav .fa {
     flex-direction: row;
     padding: 10px;
     margin-top: 30rem;
-   
+
 }
 
 .about h1:not(.venue, .conf-date, .orgs) {
@@ -287,11 +398,11 @@ nav .fa {
     text-align: center;
     padding: 5rem 0rem 3rem 0rem;
     text-transform: uppercase;
-    margin-top:5rem;
+    margin-top: 5rem;
 }
 
 .about p {
-    text-align: center;
+    text-align: justify;
     padding-bottom: 60px;
 }
 
@@ -352,6 +463,7 @@ nav .fa {
     display: inline-block;
     color: white;
 }
+
 .vendate p,
 .row2 .org p {
     color: #fff;
@@ -402,27 +514,27 @@ p {
     background: #fff3f3;
 }
 
-.tile img {
+/* .tile img {
     display: inline-block;
     width: 18rem;
     height: 20rem;
     border-radius: 10px;
     padding-top: .5rem;
     padding-bottom: .5rem;
-}
+} */
 
-#tiles {
+/* #tiles {
     padding: 2rem 2rem 2rem 2rem;
-}
+} */
 
-.tile {
+/* .tile { */
     /* width:20rem; */
-    height: 60vh;
+    /* height: 60vh;
     margin-bottom: 0;
     box-sizing: border-box;
     transition: 0.5s;
     text-align: center;
-}
+} */
 
 .speaker-info {
     padding: 12px 0px 0px 0px;
@@ -434,9 +546,9 @@ h3 {
     margin: 10px 0;
 }
 
-.tile:hover {
+/* .tile:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-}
+} */
 
 
 
@@ -472,7 +584,7 @@ h3 {
 
 /* *************************call to action********************** */
 .cta {
-    margin:4rem auto 1rem;
+    margin: 4rem auto 1rem;
     width: 80%;
     background-position: center;
     background-size: cover;
@@ -482,17 +594,18 @@ h3 {
 }
 
 .cta a {
-    border:2px solid #0a0428;
+    border: 2px solid #0a0428;
     background-color: #0a0428;
     color: #fff;
     margin-bottom: 40px;
     padding: -10rem;
 }
-.cta .hero-btn:hover{
-    background:white;
-    color:#0a0428;
-    border:2px solid #0a0428;
-}   
+
+.cta .hero-btn:hover {
+    background: white;
+    color: #0a0428;
+    border: 2px solid #0a0428;
+}
 
 /* *******************Footer******************* */
 .bottom {
@@ -501,8 +614,9 @@ h3 {
     /* padding:0;   */
     margin-bottom: 0rem;
     position: relative;
-    top:3rem;
+    top: 3rem;
 }
+
 .copyright {
     padding: 0.5rem 0rem 2rem 0rem;
     background: white;
@@ -510,9 +624,11 @@ h3 {
     height: 3vh;
     color: black;
 }
-.fa-regular{
+
+.fa-regular {
     color: black;
 }
+
 .footer {
     display: flex;
     margin-bottom: -5rem;
@@ -525,31 +641,39 @@ h3 {
     text-align: left;
     flex-wrap: wrap;
     flex-direction: row;
-   
+    margin-top: 3rem;
 }
-.footer .team{
+
+.footer .team {
     text-align: center;
     padding: 10px;
 }
-.footer .teamm{
+
+.footer .teamm {
     text-align: center;
 }
-.footer ul li p{
-    text-align: center;
-    color:white;
+
+
+.footer ul li p {
+    text-align: justify;
+    color: white;
 }
-.footer ul{
+
+.footer ul {
     list-style-type: none;
-    
+
 }
-.footer ul li a{
-    color: #fff; 
+
+.footer ul li a {
+    color: #fff;
 }
-.footer ul li a:hover::after{
+
+.footer ul li a:hover::after {
     width: 100%;
-    
+
 }
-.footer ul li a::after{
+
+.footer ul li a::after {
     text-decoration: underline;
     content: '';
     width: 0%;
@@ -558,27 +682,39 @@ h3 {
     display: block;
     margin: auto;
     transition: 0.5s;
-  
+
 }
-.footer ul li img{
+
+.footer ul li img {
     width: 150px;
     margin: 30px;
     height: 150px;
 }
-.nit{
+
+.footer .mail {
+    text-align: center;
+}
+
+.nit {
     font-size: 25px;
 }
-@media(max-width:785px){
-    .footer{
-        display:flex;
+
+.footer .links{
+    text-align: center;
+}
+@media(max-width:785px) {
+    .footer {
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .footer ul{
-        padding:0rem 0rem 1rem 0rem;
+
+    .footer ul {
+        padding: 0rem 0rem 1rem 0rem;
     }
-    .copyright{
-        margin-top:2rem;
+
+    .copyright {
+        margin-top: 2rem;
     }
 }
 
