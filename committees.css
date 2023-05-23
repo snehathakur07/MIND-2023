@@ -8,7 +8,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+ /*******************************NAVIGATION BAR*****************************************/
 nav {
     z-index: 10;
     display: flex;
@@ -67,19 +67,9 @@ nav .fa {
     display: none;
 }
 
+/***************************MEDIA QUERIES**************************/
 @media(max-width:777px) {
-    .text-box h1 {
-        font-size: 55px;
-    }
-
-    .text-box .conf {
-        font-size: 20px;
-    }
-
-    .text-box .venue {
-        font-size: 15px;
-
-    }
+   
 
     .nav-links ul li {
         display: block;
@@ -108,7 +98,8 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
-
+    
+    
 }
 
 @media(min-width:1500px) {
@@ -118,7 +109,6 @@ nav .fa {
         margin: -12px 1px -15px -60px;
     }
 }
-
 @media (max-width:1300px) {
     nav img {
         width: 93px;
@@ -130,12 +120,8 @@ nav .fa {
 .comm {
     font-family: sans-serif;
     padding-top: 8rem;
-    padding-left: 1.4rem;
+    /* padding-left: 1.4rem; */
     text-align: center;
-}
-
-.comm p {
-    padding-left: 2.5rem;
 }
 
 .comm h3 {
@@ -167,8 +153,96 @@ nav .fa {
 .comm p {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding:1rem 2rem 1rem 2rem;
 }
 
 .comm .last {
     margin-bottom: 5rem;
+}
+/* *******************Footer******************* */
+.bottom {
+    width: 100%;
+    text-align: center;
+    /* padding:0;   */
+    margin-bottom: 0rem;
+    position: relative;
+    top:3rem;
+}
+.copyright {
+    padding: 0.5rem 0rem 2rem 0rem;
+    background: white;
+    width: 100%;
+    height: 3vh;
+    color: black;
+}
+.fa-regular{
+    color: black;
+}
+.footer {
+    display: flex;
+    margin-bottom: -5rem;
+    padding: 0.8rem 0rem 2rem 0rem;
+    background: rgb(101, 17, 17);
+    width: 100%;
+    /* height: 40vh; */
+    justify-content: space-around;
+    color: white;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+.footer .team{
+    text-align: center;
+    padding: 10px;
+}
+.footer .teamm{
+    text-align: center;
+}
+.footer ul li p{
+    text-align: center;
+    color:white;
+}
+.footer ul{
+    list-style-type: none;
+    
+}
+.footer ul li a{
+    color: #fff; 
+}
+.footer ul li a:hover::after{
+    width: 100%;
+    
+}
+.footer ul li a::after{
+    text-decoration: underline;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  
+}
+.footer ul li img{
+    width: 150px;
+    margin: 30px;
+    height: 150px;
+}
+.nit{
+    font-size: 25px;
+}
+@media(max-width:785px){
+    .footer{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer ul{
+        padding:0rem 0rem 1rem 0rem;
+    }
+    .copyright{
+        margin-top:2rem;
+    }
 }
