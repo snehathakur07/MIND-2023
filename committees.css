@@ -179,6 +179,19 @@ nav .fa {
 }
 
 
+.otherflex{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.patron{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
 
 
 
