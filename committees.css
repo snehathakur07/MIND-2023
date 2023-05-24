@@ -8,7 +8,8 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
- /*******************************NAVIGATION BAR*****************************************/
+
+/*******************************NAVIGATION BAR*****************************************/
 /* nav {
     z-index: 10;
     display: flex;
@@ -134,40 +135,59 @@ nav .fa {
     border-radius: 0.4rem;
 }
 
-.comm h3:hover{
-    background-color: none;
-}
-.committee-tile :hover {
+
+.committee-tile p:hover {
     border: none;
     background: rgba(107, 17, 17);
-    color:white;
-    width:40vw;
+    color: white;
     margin: auto;
     border-radius: 0.4rem;
 }
-.comm h1{
+.committee-tile p:hover:not(.commflex p){
+    width:28vw;
+}
+.comm h1 {
     font-size: 2.4rem;
 }
-.comm h3{
+
+.comm h3 {
     margin-top: 3rem;
 }
 
 .comm p {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding:1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.commflex p {
+    width: 23rem;
 }
 
 .comm .last {
     margin-bottom: 5rem;
 }
 
+.comm h3:hover {
+    background-color: none;
+}
+
+.commflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
 /* *******************Footer******************* */
 /* .bottom {
     width: 100%;
     text-align: center;
     /* padding:0;   */
-    /* margin-bottom: 0rem;
+/* margin-bottom: 0rem;
     position: relative;
     top:3rem;
 }
@@ -188,7 +208,7 @@ nav .fa {
     background: rgb(101, 17, 17);
     width: 100%;
     /* height: 40vh; */
-    /* justify-content: space-around;
+/* justify-content: space-around;
     color: white;
     text-align: left;
     flex-wrap: wrap;

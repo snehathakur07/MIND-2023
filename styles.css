@@ -607,7 +607,7 @@ h3 {
     border: 2px solid #0a0428;
 }
 
-/* *******************Footer******************* */
+/* ******************Footer****************** */
 .bottom {
     width: 100%;
     text-align: center;
@@ -642,6 +642,7 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 3rem;
+
 }
 
 .footer .team {
@@ -649,13 +650,16 @@ h3 {
     padding: 10px;
 }
 
-.footer .teamm {
+.footer .teamm .nitt{
     text-align: center;
+  
+}
+.footer .nitt{
+    padding-top:15px;
 }
 
-
 .footer ul li p {
-    text-align: justify;
+    /* text-align: justify; */
     color: white;
 }
 
@@ -696,6 +700,7 @@ h3 {
 }
 
 .nit {
+    
     font-size: 25px;
 }
 
@@ -716,9 +721,10 @@ h3 {
     .copyright {
         margin-top: 2rem;
     }
+    p{
+        text-align: center;
+    }
 }
-
-
 
 /******************************** Contact us ***************************/
 .location {
