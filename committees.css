@@ -25,7 +25,13 @@
     border-radius: 0.4rem;
 }
 
+.comm img{
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    margin-top:25px;
 
+}
 .committee-tile p:hover {
     border: none;
     background: rgba(107, 17, 17);
@@ -51,9 +57,12 @@
 }
 
 .commflex p {
-    width: 23rem;
+    width: 22rem;
 }
 
+.commflex .ps{
+    width:23rem;
+}   
 .comm .last {
     margin-bottom: 5rem;
 }
@@ -68,8 +77,14 @@
     flex-direction: row;
     justify-content: center;
 }
+.commflex-first {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+} 
 
-
+    
 .otherflex{
     display:flex;
     flex-wrap:wrap;
@@ -77,13 +92,18 @@
     justify-content: space-around;
     padding:2rem;
 }
+<<<<<<< HEAD
 
 .patron{
+=======
+/*.patron{
+>>>>>>> origin
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 2rem;
+<<<<<<< HEAD
 }
 .patron h2,.otherflex h2{
     margin-top:3rem;
@@ -92,9 +112,103 @@ img{
     margin-top:2rem;
     clip-path: circle();
 }
+=======
+}*/
+>>>>>>> origin
 
 .tile p{
     font-size: 1.3rem;
 }
 
+<<<<<<< HEAD
     
+=======
+
+/* *******************Footer******************* */
+/* .bottom {
+    width: 100%;
+    text-align: center;
+    /* padding:0;   */
+/* margin-bottom: 0rem;
+    position: relative;
+    top:3rem;
+}
+.copyright {
+    padding: 0.5rem 0rem 2rem 0rem;
+    background: white;
+    width: 100%;
+    height: 3vh;
+    color: black;
+}
+.fa-regular{
+    color: black;
+}
+.footer {
+    display: flex;
+    margin-bottom: -5rem;
+    padding: 0.8rem 0rem 2rem 0rem;
+    background: rgb(101, 17, 17);
+    width: 100%;
+    /* height: 40vh; */
+/* justify-content: space-around;
+    color: white;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+.footer .team{
+    text-align: center;
+    padding: 10px;
+}
+.footer .teamm{
+    text-align: center;
+}
+.footer ul li p{
+    text-align: center;
+    color:white;
+}
+.footer ul{
+    list-style-type: none;
+    
+}
+.footer ul li a{
+    color: #fff; 
+}
+.footer ul li a:hover::after{
+    width: 100%;
+    
+}
+.footer ul li a::after{
+    text-decoration: underline;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  
+}
+.footer ul li img{
+    width: 150px;
+    margin: 30px;
+    height: 150px;
+}
+.nit{
+    font-size: 25px;
+}
+@media(max-width:785px){
+    .footer{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer ul{
+        padding:0rem 0rem 1rem 0rem;
+    }
+    .copyright{
+        margin-top:2rem;
+    }
+} */
+>>>>>>> origin
