@@ -8,116 +8,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
-/*******************************NAVIGATION BAR*****************************************/
-/* nav {
-    z-index: 10;
-    display: flex;
-    padding: 0.8% 4%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(101, 17, 17);
-    box-shadow: 0px -0.6px 10px black;
-    position: fixed;
-    width: 100%;
-    margin-right: 10px;
-}
-
-nav img {
-    width: 84px;
-    height: 66px;
-    padding: 0;
-    margin: -22px 1px -25px -60px;
-}
-
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
-
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-
-}
-
-.nav-links ul li a {
-    color: #ffff;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 0px 13px 16px 16px;
-}
-
-.nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #ffffff;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.nav-links ul li:hover::after {
-    width: 100%;
-}
-
-nav .fa {
-    display: none;
-}
-
-/***************************MEDIA QUERIES**************************/
-/* @media(max-width:777px) {
-   
-
-    .nav-links ul li {
-        display: block;
-    }
-
-    .nav-links {
-        position: fixed;
-        background: #0a0428;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-
-    nav .fa {
-        display: block;
-        color: #ffff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-
-    .nav-links ul {
-        padding: 30px;
-    }
-    
-    
-}
-
-@media(min-width:1500px) {
-    nav img {
-        width: 93px;
-        height: 67px;
-        margin: -12px 1px -15px -60px;
-    }
-}
-@media (max-width:1300px) {
-    nav img {
-        width: 93px;
-        height: 55px;
-        margin: -7px 0px -5px -22px;
-    }
-}  */
-
 .comm {
     font-family: sans-serif;
     padding-top: 8rem;
@@ -125,7 +15,7 @@ nav .fa {
     text-align: center;
 }
 
-.comm h3 {
+.comm h2 {
     background-color: #0a0428ef;
     width: 40vw;
     color: white;
@@ -143,15 +33,16 @@ nav .fa {
     margin: auto;
     border-radius: 0.4rem;
 }
-.committee-tile p:hover:not(.commflex p){
+.committee-tile p:hover:not(.commflex p,.patron p) {
     width:28vw;
 }
+
 .comm h1 {
     font-size: 2.4rem;
 }
 
-.comm h3 {
-    margin-top: 3rem;
+.comm h2 {
+    margin-top: 7rem;
 }
 
 .comm p {
@@ -167,7 +58,7 @@ nav .fa {
     margin-bottom: 5rem;
 }
 
-.comm h3:hover {
+.comm h2:hover {
     background-color: none;
 }
 
@@ -184,7 +75,9 @@ nav .fa {
     flex-wrap:wrap;
     flex-direction: row;
     justify-content: space-around;
+    padding:2rem;
 }
+
 .patron{
     display: flex;
     flex-wrap: wrap;
@@ -192,93 +85,16 @@ nav .fa {
     justify-content: space-around;
     padding-top: 2rem;
 }
+.patron h2,.otherflex h2{
+    margin-top:3rem;
+}
+img{
+    margin-top:2rem;
+    clip-path: circle();
+}
 
+.tile p{
+    font-size: 1.3rem;
+}
 
-
-/* *******************Footer******************* */
-/* .bottom {
-    width: 100%;
-    text-align: center;
-    /* padding:0;   */
-/* margin-bottom: 0rem;
-    position: relative;
-    top:3rem;
-}
-.copyright {
-    padding: 0.5rem 0rem 2rem 0rem;
-    background: white;
-    width: 100%;
-    height: 3vh;
-    color: black;
-}
-.fa-regular{
-    color: black;
-}
-.footer {
-    display: flex;
-    margin-bottom: -5rem;
-    padding: 0.8rem 0rem 2rem 0rem;
-    background: rgb(101, 17, 17);
-    width: 100%;
-    /* height: 40vh; */
-/* justify-content: space-around;
-    color: white;
-    text-align: left;
-    flex-wrap: wrap;
-    flex-direction: row;
-   
-}
-.footer .team{
-    text-align: center;
-    padding: 10px;
-}
-.footer .teamm{
-    text-align: center;
-}
-.footer ul li p{
-    text-align: center;
-    color:white;
-}
-.footer ul{
-    list-style-type: none;
     
-}
-.footer ul li a{
-    color: #fff; 
-}
-.footer ul li a:hover::after{
-    width: 100%;
-    
-}
-.footer ul li a::after{
-    text-decoration: underline;
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #ffffff;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-  
-}
-.footer ul li img{
-    width: 150px;
-    margin: 30px;
-    height: 150px;
-}
-.nit{
-    font-size: 25px;
-}
-@media(max-width:785px){
-    .footer{
-        display:flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .footer ul{
-        padding:0rem 0rem 1rem 0rem;
-    }
-    .copyright{
-        margin-top:2rem;
-    }
-} */
