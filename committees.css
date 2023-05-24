@@ -8,11 +8,15 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 .comm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-family: sans-serif;
     padding-top: 8rem;
-    /* padding-left: 1.4rem; */
     text-align: center;
+    justify-content: center;
 }
 
 .comm h2 {
@@ -33,8 +37,9 @@
     margin: auto;
     border-radius: 0.4rem;
 }
-.committee-tile p:hover:not(.commflex p,.patron p) {
-    width:28vw;
+
+.committee-tile p:hover:not(.commflex p, .patron p) {
+    width: 28vw;
 }
 
 .comm h1 {
@@ -70,31 +75,66 @@
 }
 
 
-.otherflex{
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    padding:2rem;
-}
-
-.patron{
+.otherflex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    padding: 2rem;
+}
+
+.patron {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 3rem;
     padding-top: 2rem;
 }
-.patron h2,.otherflex h2{
-    margin-top:3rem;
+
+.patron h2,
+.otherflex h2 {
+    margin-top: 3rem;
 }
-img{
-    margin-top:2rem;
+
+.yes{
+    height: 17rem;
+    width: 20rem;
+    margin: auto;
+    margin-top: 2rem;
     clip-path: circle();
 }
 
-.tile p{
+.tile p {
     font-size: 1.3rem;
 }
 
-    
+.tile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.complete {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media(max-width:500px) {
+    .comm h2 {
+        width: 80vw;
+    }
+
+    .tile p{
+        width:100vw;
+        font-size: 1.2rem;
+    }
+
+    img {
+        height: 12rem;
+        width: 15rem;
+    }
+}
