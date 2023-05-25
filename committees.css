@@ -7,6 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
 .comm {
@@ -17,6 +18,7 @@
     padding-top: 8rem;
     text-align: center;
     justify-content: center;
+    margin-bottom:2rem;
 }
 
 .comm h2 {
@@ -29,7 +31,6 @@
     border-radius: 0.4rem;
 }
 
-
 .committee-tile p:hover {
     border: none;
     background: rgba(107, 17, 17);
@@ -37,9 +38,29 @@
     margin: auto;
     border-radius: 0.4rem;
 }
-
-.committee-tile p:hover:not(.commflex p, .patron p,.general-chairs p,.publicity-chairs p) {
+.tpc{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.committee-tile p:hover:not(.commflex p, .patron p, .general-chairs p, .publicity-chairs p,.advisory p,.tpc p) {
     width: 28vw;
+}
+
+/* .tpc p:last-child:hover {
+    margin-bottom: 3rem;
+} */
+/* .comm .last {
+    margin-bottom: 5rem;
+} */
+.advisory p,
+.tpc p {
+    width:40vw;
+}
+
+.tpc p :hover{
+    width:40vw;
 }
 
 .comm h1 {
@@ -52,16 +73,14 @@
 
 .comm p {
     padding: 1rem 2rem 1rem 2rem;
-
 }
 
-.commflex p ,.publicity-chairs p{
+.commflex p,
+.publicity-chairs p {
     width: 23rem;
 }
 
-.comm .last {
-    margin-bottom: 5rem;
-}
+
 
 .comm h2:hover {
     background-color: none;
@@ -72,34 +91,48 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    padding-left:1rem;
+    padding-right:1rem;
+    
 }
-.general-chairs{
-    display:flex;
+.organizing-secretary,.general-co-chairs{
+padding:0rem;
+}
+.general-chairs {
+    display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
-@media(min-width:1400px){
-    .general-chairs,.publicity-chairs{
-        padding:0rem 10rem;
+@media(min-width:1400px) {
+
+    .general-chairs,
+    .publicity-chairs {
+        padding: 0rem 10rem;
     }
 }
-@media(min-width:1400px){
-    .publicity-chairs,.publicity-chairs:hover{
-        padding:0rem 5rem;
+
+@media(min-width:1400px) {
+
+    .publicity-chairs,
+    .publicity-chairs:hover {
+        padding: 0rem 5rem;
     }
 }
+
 .publicity-chairs {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
+
 .otherflex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2rem;
+    margin-bottom:6rem;
+    /* padding: 2rem; */
 }
 
 .patron {
@@ -109,6 +142,7 @@
     justify-content: center;
     column-gap: 3rem;
     padding-top: 2rem;
+    margin-bottom: 12rem;
 }
 
 .patron h2,
@@ -116,16 +150,16 @@
     margin-top: 3rem;
 }
 
-.yes{
-    height: 17rem;
-    width: 20rem;
+.yes {
+    height: 15rem;
+    width: 15rem;
     margin: auto;
     margin-top: 2rem;
     clip-path: circle();
 }
 
 .tile p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .tile {
@@ -147,8 +181,8 @@
         width: 80vw;
     }
 
-    .tile p{
-        width:100vw;
+    .tile p {
+        width: 100vw;
         font-size: 1.2rem;
     }
 

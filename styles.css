@@ -9,7 +9,9 @@
     scroll-behavior: smooth;
     
 }
-
+body{
+    background-color:rgba(107, 17, 17, 0.007);
+}
 /*******************************NAVIGATION BAR*****************************************/
 nav {
     z-index: 10;
@@ -58,10 +60,12 @@ nav img {
     display: block;
     margin: auto;
     transition: 0.5s;
+
 }
 
 .nav-links ul li:hover::after {
     width: 100%;
+    padding-left:10px;
 }
 
 nav .sub-menu{
@@ -87,7 +91,7 @@ nav ul li:hover .sub-menu ul{
 }
 nav ul li:hover .sub-menu ul li{
     width:200px;
-    padding:1.6rem 0rem 0rem 0.4rem;
+    padding:1.6rem 0rem 1rem 0.4rem;
     background: transparent;
     text-align: center;
 }
@@ -124,7 +128,7 @@ nav .fa {
     z-index: 1;
     /* transform: translate(-50%, -50%); */
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('gate.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('pictures/gate.jpg');
     background-position: center;
     background-size: cover;
     display: inline-block;
@@ -229,10 +233,16 @@ nav .fa {
     color: #999;
     margin: 0 0 15px;
     transition: all 0.3s ease 0s;
+    text-align:center;
+    font-size: 1.1rem;
 }
 
 .box ul li {
     padding: 1rem;
+    /* padding-left:4rem; */
+    text-align: center;
+    /* letter-spacing:px; */
+    
 }
 
 .box:hover .title {
@@ -400,7 +410,7 @@ nav .fa {
     text-align: center;
     padding: 5rem 0rem 3rem 0rem;
     text-transform: uppercase;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .about p {
@@ -491,8 +501,9 @@ nav .fa {
     font-size: 36px;
     font-weight: 600;
     text-align: center;
-    padding: 8rem 0rem 6rem 0rem;
+    padding: 5rem 0rem 4rem 0rem;
     text-transform: uppercase;
+    margin-top:3rem;
 }
 
 p {
@@ -641,13 +652,12 @@ h3 {
     background: rgb(101, 17, 17);
     width: 100%;
     /* height: 40vh; */
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
     text-align: left;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 3rem;
-
+    margin-top: 10rem;
 }
 
 .footer .team {
@@ -655,34 +665,46 @@ h3 {
     padding: 10px;
 }
 
-.footer .teamm .nitt{
-    text-align: center;
-  
-}
-.footer .nitt{
-    padding-top:15px;
-}
 
-.footer ul li p {
+.footer .nitt{
+    width:80%;
+    padding-top:15px;
+    padding-bottom:3rem;
+    text-align: justify;
+    margin:auto;
+}
+/* .footer ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.footer p {
     /* text-align: justify; */
     color: white;
 }
 
 .footer ul {
     list-style-type: none;
-
+    margin-top:2rem;
+         
 }
-
-.footer ul li a {
+.footer-sections{
+    width:33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer  a,.nitt {
     color: #fff;
+    font-size: 15px;
 }
 
-.footer ul li a:hover::after {
+.footer a:hover::after {
     width: 100%;
-
 }
 
-.footer ul li a::after {
+
+.footer a::after {
     text-decoration: underline;
     content: '';
     width: 0%;
@@ -691,13 +713,13 @@ h3 {
     display: block;
     margin: auto;
     transition: 0.5s;
-
 }
 
-.footer ul li img {
+.footer img {
     width: 150px;
     margin: 30px;
     height: 150px;
+    /* padding:auto; */
 }
 
 .footer .mail {
@@ -705,13 +727,14 @@ h3 {
 }
 
 .nit {
-    
+    /* margin-bottom: 5rem; */
     font-size: 25px;
 }
 
 .footer .links{
     text-align: center;
 }
+
 @media(max-width:785px) {
     .footer {
         display: flex;
@@ -851,9 +874,15 @@ h3 {
     margin: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     justify-content: space-around;
 }
+@media(max-width:797px){
+    .contact-section-bg {
+    flex-wrap: wrap;
+    }
+}
+
 
 .contact-section-bg h4 {
     color: #ffffff;
