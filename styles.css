@@ -7,6 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
 /*******************************NAVIGATION BAR*****************************************/
@@ -38,7 +39,7 @@ nav img {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 9px;
+    padding: 8px 23px;
     position: relative;
 }
 
@@ -72,8 +73,8 @@ nav ul li:hover .sub-menu{
     background-color: rgb(101, 17, 17);
     color:white;
     margin-top:1rem;
-    margin-left:-1rem;
-    padding:1rem 1rem 1rem 1rem;
+    margin-left:-2rem;
+    padding:1rem 0rem 1rem 0rem;
     border-radius: 3px;
 }
 nav ul li:hover .sub-menu ul{
@@ -85,11 +86,10 @@ nav ul li:hover .sub-menu ul{
     /* padding:0rem; */
 }
 nav ul li:hover .sub-menu ul li{
-    width:100px;
-    padding:1.6rem 0rem 0rem 0rem;
+    width:200px;
+    padding:1.6rem 0rem 0rem 0.4rem;
     background: transparent;
     text-align: center;
-    /* border-bottom: #ffffff43 solid 2px;   */
 }
 nav ul li:hover .sub-menu ul li:first-child{
     padding-bottom: 1rem;
@@ -119,21 +119,22 @@ nav .fa {
 .text-box {
     position: absolute;
     width: 100vw;
-    height: 28rem;
+    height: 29rem;
     color: #ffff;
     z-index: 1;
     /* transform: translate(-50%, -50%); */
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.782), rgba(0, 0, 0, 0.782)), url('gate.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('gate.jpg');
     background-position: center;
     background-size: cover;
     display: inline-block;
-
-
 }
 
 .text-box h1 {
+    width:100vw;
+    margin-top:3rem;
     font-size: 70px;
+    letter-spacing: 2px;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
@@ -145,6 +146,7 @@ nav .fa {
 }
 
 .text-box .conf {
+    width:100vw;
     padding-top: 1rem;
     margin: 7rem 0 2rem;
     font-size: 24px;
@@ -511,9 +513,12 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 10px;
-    background: #fff3f3;
+    /* background: #fff3f3; */
+    background-color:rgb(101, 17, 17);
 }
-
+.speaker-info h3{
+    color:white;
+}
 /* .tile img {
     display: inline-block;
     width: 18rem;
@@ -537,7 +542,7 @@ p {
 } */
 
 .speaker-info {
-    padding: 12px 0px 0px 0px;
+    padding: 12px 0px 12px 0px;
 }
 
 h3 {
