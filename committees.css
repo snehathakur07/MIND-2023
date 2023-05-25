@@ -151,11 +151,12 @@ padding:0rem;
 }
 
 .yes {
-    height: 15rem;
-    width: 15rem;
+    /* height: 20rem; */
+    /* width: 15rem; */
     margin: auto;
-    margin-top: 2rem;
-    clip-path: circle();
+    margin-top: 4rem;
+    /* margin-bottom: 0rem; */
+    /* clip-path: circle(); */
 }
 
 .tile p {
@@ -168,6 +169,7 @@ padding:0rem;
     flex-direction: column;
     justify-content: center;
     margin: auto;
+   
 }
 
 .complete {
@@ -188,6 +190,6 @@ padding:0rem;
 
     img {
         height: 12rem;
-        width: 15rem;
+        /* width: 15rem; */
     }
 }

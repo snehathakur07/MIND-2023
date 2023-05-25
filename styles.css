@@ -60,7 +60,6 @@ nav img {
     display: block;
     margin: auto;
     transition: 0.5s;
-
 }
 
 .nav-links ul li:hover::after {
@@ -77,8 +76,8 @@ nav ul li:hover .sub-menu{
     background-color: rgb(101, 17, 17);
     color:white;
     margin-top:1rem;
-    margin-left:-2rem;
-    padding:1rem 0rem 1rem 0rem;
+    margin-left:0rem;
+    padding:1rem 0rem 0rem 0rem;
     border-radius: 3px;
 }
 nav ul li:hover .sub-menu ul{
@@ -90,10 +89,10 @@ nav ul li:hover .sub-menu ul{
     /* padding:0rem; */
 }
 nav ul li:hover .sub-menu ul li{
-    width:200px;
-    padding:1.6rem 0rem 1rem 0.4rem;
+    width:255px;
+    padding:1.3rem 0rem 1rem 0rem;
     background: transparent;
-    text-align: center;
+    text-align: left;
 }
 nav ul li:hover .sub-menu ul li:first-child{
     padding-bottom: 1rem;
@@ -118,7 +117,6 @@ nav ul li:hover .sub-menu ul li:last-child{
 nav .fa {
     display: none;
 }
-
 /****************************HEADER***********************************/
 .text-box {
     position: absolute;
