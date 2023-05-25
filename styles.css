@@ -7,10 +7,12 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
 }
 
 body {
+
+    overflow-x: hidden;
+    align-items: center;
     background-color: rgba(107, 17, 17, 0.007);
 }
 
@@ -24,7 +26,7 @@ nav {
     background-color: rgb(101, 17, 17);
     box-shadow: 0px -0.6px 10px black;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     margin-right: 10px;
 }
 
@@ -98,7 +100,7 @@ nav ul li:hover .sub-menu ul li {
     padding: 1.3rem 0rem 1rem 0rem;
     background: transparent;
     text-align: left;
-    height:5vh;
+    height: 5vh;
 }
 
 /* nav ul li:hover .sub-menu ul li:first-child {
@@ -107,8 +109,8 @@ nav ul li:hover .sub-menu ul li {
 
 /* nav ul li:hover .sub-menu ul li:last-child {
     /* padding-top: 1rem; */
-    /* border-bottom: none;
-} */ 
+/* border-bottom: none;
+} */
 
 .committees ul li::after {
     content: '';
@@ -119,10 +121,12 @@ nav ul li:hover .sub-menu ul li {
     margin: auto;
     transition: 0.5s;
 }
+
 .committees ul li:hover::after {
     width: 100%;
     padding-left: 10px;
 }
+
 .committees .sub-menu ul li:hover {
     border: none;
 }
@@ -149,7 +153,7 @@ nav .fa {
 }
 
 .text-box h1 {
-    width: 100vw;
+    /* width: 100; */
     margin-top: 3rem;
     font-size: 70px;
     letter-spacing: 2px;
@@ -298,9 +302,11 @@ nav .fa {
         z-index: 2;
         transition: 1s;
     }
-    .no{
-        width:100%;
+
+    .no {
+        width: 100%;
     }
+
     nav .fa {
         display: block;
         color: #ffff;
@@ -322,13 +328,13 @@ nav .fa {
         position: relative;
         background-color: #0a0428;
         color: white;
-        width:100%;
+        width: 100%;
         /* margin-top:0rem; */
         /* margin-left:-1rem; */
         /* padding:1rem 1rem 1rem 1rem; */
         /* border-radius: 3px; */
     }
-    
+
     nav ul li:hover .sub-menu ul {
         display: block;
         /* text-align:left; */
@@ -337,11 +343,13 @@ nav .fa {
         margin-left:0rem; */
         /* padding:0rem; */
     }
-    .sub-menu{
-        margin-bottom:1rem;
+
+    .sub-menu {
+        margin-bottom: 1rem;
     }
+
     nav ul li:hover .sub-menu ul li {
-        
+
         padding: 0rem 0rem 0rem 0rem;
         margin: 0rem 0rem 0rem -2rem;
         background: transparent;
@@ -956,16 +964,18 @@ iframe {
 }
 
 .nit {
-    
+
     font-size: 25px;
 }
 
 .footer .links {
     text-align: center;
 }
-body{
-    width:100vw;
+
+body {
+    width: 100vw;
 }
+
 @media(max-width:785px) {
     .footer {
         display: flex;
@@ -977,6 +987,7 @@ body{
     .footer-sections {
         width: 100%;
     }
+
     /* .complete p{
         width:100vw;
     }
@@ -990,9 +1001,11 @@ body{
     .copyright {
         margin-top: 2rem;
     }
-    .nit{
+
+    .nit {
         margin-top: 3rem;
     }
+
     .nitt p {
         text-align: justify;
     }
