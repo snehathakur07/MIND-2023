@@ -4,7 +4,7 @@ function showMenu() {
   
 }
 function hideMenu() {
-    navLinks.style.right = "-200px";
+    navLinks.style.right = "-300px";
 }
 //display start time 
 const date_time1 = new Date('December 21, 2023 12:00:00').getTime();  
