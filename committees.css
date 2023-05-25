@@ -64,7 +64,7 @@
 } */
 .advisory p,
 .tpc p {
-    width: 40vw;
+    width: inherit;
 }
 
 .tpc p :hover {
