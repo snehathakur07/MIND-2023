@@ -51,10 +51,15 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.patron p:hover{
+    margin:auto;
+    margin-top:3rem;
+    width:30vw;
 
-.committee-tile p:hover:not(.commflex p, .patron p, .general-chairs p, .publicity-chairs p, .advisory p, .tpc p) {
-    width: 28vw;
 }
+/* .committee-tile p:hover:not(.commflex p, .general-chairs p, .publicity-chairs p, .advisory p, .tpc p) {
+    width: 28vw;
+} */
 
 /* .tpc p:last-child:hover {
     margin-bottom: 3rem;
@@ -76,7 +81,7 @@
 }
 
 .comm h2 {
-    margin-top: 7rem;
+    margin-top: -6rem;
 }
 
 .comm p {
@@ -149,7 +154,7 @@
 .patron {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     column-gap: 3rem;
     padding-top: 2rem;
