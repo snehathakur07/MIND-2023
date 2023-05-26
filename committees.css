@@ -36,14 +36,14 @@
     border-radius: 0.4rem;
 }
 
-.committee-tile p:hover {
+/* .committee-tile p:hover {
     border: none;
     background: rgba(107, 17, 17);
     color: white;
-    /* margin: auto; */
+    margin: auto;
     border-radius: 0.4rem;
-    /* margin-top: 3rem; */
-}
+    margin-top: 3rem;
+} */
 
 .tpc {
     display: flex;
@@ -51,12 +51,12 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.patron p:hover{
+/* .patron p:hover{
     margin:auto;
     margin-top:3rem;
     width:30vw;
 
-}
+} */
 /* .committee-tile p:hover:not(.commflex p, .general-chairs p, .publicity-chairs p, .advisory p, .tpc p) {
     width: 28vw;
 } */
@@ -72,9 +72,9 @@
     width: inherit;
 }
 
-.tpc p :hover {
+/* .tpc p :hover {
     width: 40vw;
-}
+} */
 
 .comm h1 {
     font-size: 2.4rem;
@@ -95,9 +95,9 @@
 
 
 
-.comm h2:hover {
+/* .comm h2:hover {
     background-color: none;
-}
+} */
 
 .commflex {
     display: flex;
@@ -130,10 +130,10 @@
 
 @media(min-width:1400px) {
 
-    .publicity-chairs,
+    /* .publicity-chairs,
     .publicity-chairs:hover {
         padding: 0rem 5rem;
-    }
+    } */
 }
 .publicity-chairs {
     display: flex;
@@ -201,10 +201,10 @@
 
     overflow: hidden;
 }
-.organizing-chair:hover{
+/* .organizing-chair:hover{
     margin:auto;
     margin-top:3rem;
-}
+} */
 @media(max-width:501px) {
 
     .comm {

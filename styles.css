@@ -229,10 +229,10 @@ nav .fa {
     width: 20rem;
 }
 
-.box:hover {
+/* .box:hover {
     border: none;
     background: rgba(107, 17, 17);
-}
+} */
 
 .box .title {
     border-radius: 10px 10px 0 0;
@@ -248,7 +248,7 @@ nav .fa {
 }
 
 .box .description {
-    color: #999;
+    color: #162254;;
     margin: 0 0 15px;
     transition: all 0.3s ease 0s;
     text-align: center;
@@ -256,6 +256,7 @@ nav .fa {
 }
 
 .box ul li {
+    
     padding: 1rem;
     /* padding-left:4rem; */
     text-align: center;
@@ -267,9 +268,9 @@ nav .fa {
     color: #fff;
 }
 
-.box:hover .description {
+/* .box:hover .description {
     color: rgba(255, 255, 255, 0.8);
-}
+} */
 
 
 /***************************MEDIA QUERIES**************************/
@@ -827,7 +828,7 @@ h3 {
     display: inline-block;
 }
 
-i {
+i:not(marquee i) {
     color: #ababab;
 }
 
