@@ -164,7 +164,12 @@
 .otherflex h2 {
     margin-top: 3rem;
 }
-
+.except-patron{
+    margin-top:-4rem;
+}
+.except-patron h2{
+    margin-top:3rem;
+}
 .yes {
     /* height: 15rem; */
     /* width: 15rem; */
