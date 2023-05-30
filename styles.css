@@ -234,8 +234,7 @@ nav .fa {
 .box::-webkit-scrollbar{
     display:none;
 }
-.box,
-.box.cyan {
+.box {
     height:18rem;
     width: 23rem;
 }
