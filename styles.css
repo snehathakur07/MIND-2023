@@ -27,7 +27,7 @@ nav {
     box-shadow: 0px -0.6px 10px black;
     position: fixed;
     width: 100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin-right: 10px;
 }
 
@@ -124,7 +124,7 @@ nav ul li:hover .sub-menu ul li {
 }
 
 .committees ul li:hover::after {
-    width: 100%;
+    width:100%;
     padding-left: 10px;
 }
 
