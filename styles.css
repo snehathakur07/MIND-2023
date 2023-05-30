@@ -214,19 +214,29 @@ nav .fa {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+/* .box{
+    display:flex;
+    flex-direction:column;
 
+} */
 .box {
     padding: 0 0 0;
-    margin: 5px 0 0 5px;
+    margin: -0.8rem 0 0 5px;
     border-radius: 10px;
     box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease 0s;
     color: black;
     /* border: 1px solid rgba(101, 17, 17, 0.699);   */
+    overflow-y:scroll;
+    scrollbar-width: none;
+    /* position: relative; */
 }
-
+.box::-webkit-scrollbar{
+    display:none;
+}
 .box,
 .box.cyan {
+    height:22rem;
     width: 20rem;
 }
 
@@ -246,19 +256,22 @@ nav .fa {
     text-transform: capitalize;
     margin: 0 0 10px;
     transition: all 0.3s ease 0s;
+    /* position: relative; */
+    /* top:0; */
+    /* z-index:1; */
 }
 
 .box .description {
     color: #162254;;
-    margin: 0 0 15px;
+    margin: 0 0 0px;
     transition: all 0.3s ease 0s;
     text-align: center;
     font-size: 1.1rem;
 }
 
 .box ul li {
-    
-    padding: 1rem;
+    list-style: none;
+    padding: 0.6rem 2rem;
     /* padding-left:4rem; */
     text-align: center;
     /* letter-spacing:px; */
@@ -268,7 +281,9 @@ nav .fa {
 .box:hover .title {
     color: #fff;
 }
-
+#dates li{
+    text-align:left;
+}
 /* .box:hover .description {
     color: rgba(255, 255, 255, 0.8);
 } */

@@ -1,8 +1,42 @@
 .programs {
     font-family: sans-serif;
     height: 52vh;
-    padding: 8rem;
+    padding-top: 8rem;
     /* padding-left: 1.4rem; */
+    margin-bottom:15rem;
     text-align: center;
+}
+h1{
+    font-size:36px;
+}
+table ,td{
+    border:2.5px solid rgba(101, 17, 17, 0.856);
+    /* border:2.5px solid #162254; */
+    border-collapse: collapse;
+    font-size: 1.2rem;
+}
+table{
+    width:65vw;
+    margin:auto;
+    margin-top:2rem;
+    text-align:left;
+    margin-bottom:2rem;
+}
+td{
+    padding:1.3rem;
+}
+.darker-row td{
+    background-color:rgba(101, 17, 17, 0.193);
+    /* background-color:#071d7656; */
+}
+@media(max-width:650px){
+    .programs{
+        margin-bottom:20rem;
+    }
+}
 
+@media(max-width:440px){
+    .programs{
+        margin-bottom:27rem;
+    }
 }
