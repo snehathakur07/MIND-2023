@@ -33,37 +33,49 @@ table .darker {
 }
 
 
-@media(max-width:437px) {
-    table ,tr,td{
-        /* display: block; */
+@media(max-width:486px) {
+    /* table ,tr,td{
+        display: block;
         width:10%;
         max-width: 50vw;
 
-    }
+    } */
     table th,
     table td {
+        font-size: 15px;
         padding: 0.5rem;
     }
 }
-@media(max-width:356px){
-    table,tr,td{
+@media(max-width:412px){
+    /* table,tr,td{
         width:9%;
         max-width: 50vw;
-    }
+    } */
     table th,
     table td {
-        font-size: 13px;
+        font-size: 15px;
         padding: 0.5rem;
     }
 }
-@media(max-width:317px){
-    table,tr,td{
-        width:7%;
+@media(max-width:350px){
+    /* table,tr,td{
+        width:100%;
         max-width: 50vw;
-    }
+    } */
     table th,
     table td {
-        font-size: 11px;
+        font-size: 14px;
+        padding: 0.3rem;
+    }
+}
+@media(max-width:334px){
+    /* table,tr,td{
+        width:100%;
+        max-width: 50vw;
+    } */
+    table th,
+    table td {
+        font-size: 12px;
         padding: 0.3rem;
     }
 }
