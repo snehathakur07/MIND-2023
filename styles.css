@@ -215,6 +215,7 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    row-gap: 1.3rem;
 }
 /* .box{
     display:flex;
