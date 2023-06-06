@@ -8,7 +8,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+::selection {
+    background-color: #162254; /* Set the background color */
+    color: white; /* Set the text color */
+  }
+  
 body {
 
     overflow-x: hidden;
@@ -81,10 +85,11 @@ nav ul li:hover .sub-menu {
     position: absolute;
     background-color: rgb(101, 17, 17);
     color: white;
-    margin-top: 1rem;
+    margin-top: 1.45rem;
     margin-left: 0rem;
-    padding: 1rem 0rem 1rem 0rem;
-    border-radius: 3px;
+    padding: 0rem 0rem 1rem 0rem;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 2px 5px black;
 }
 
 nav ul li:hover .sub-menu ul {
@@ -139,7 +144,10 @@ nav .fa {
 h1{
     font-size:36px;
 }
-
+.sub-menu ul{
+    font-size:0em;
+    padding-top:1rem;
+}
 /****************************HEADER***********************************/
 .text-box {
     position: absolute;
@@ -270,7 +278,15 @@ h1{
     text-align: center;
     font-size: 1.1rem;
 }
-
+.description a{
+    /* display:flex;
+    justify-content: center; */
+    color: #162254;;
+    /* margin: 0 0 0px;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    font-size: 1.1rem; */
+}
 .box ul li {
     list-style: none;
     padding: 0.6rem 2rem;

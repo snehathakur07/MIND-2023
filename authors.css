@@ -9,18 +9,21 @@
 table {
     width: 100%;
     max-width: 65vw;
-    border: 2.5px solid rgba(101, 17, 17, 0.856);
-    border-collapse: collapse;
+    border: 1px solid rgba(101, 17, 17, 0.856);
+    /* border-collapse: collapse; */
+    border-spacing: 0;
     margin: auto;
     margin-top: 2rem;
     text-align: left;
     word-wrap: break-word;
     font-size: 19.2px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;;
 }
 
 table th,
 table td {
-    border: 2.5px solid rgb(101, 17, 17);
+    border: 0.1px solid #651111;
     padding: 1.3rem;
 }
 
