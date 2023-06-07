@@ -50,7 +50,9 @@ nav img {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 23px;
+    /*padding: 8px 23px;*/
+    padding:8px 10px;
+    margin:0rem 0.5rem 0.5rem 0.5rem;
     position: relative;
 }
 
@@ -58,7 +60,7 @@ nav img {
     color: #ffff;
     text-decoration: none;
     font-size: 1.25rem;
-    padding: 0px 0px 16px 16px;
+    /*padding: 0px 0px 16px 16px;*/
 }
 
 .nav-links ul li:not(.committees, .no)::after {
@@ -73,9 +75,12 @@ nav img {
 
 .nav-links ul li:hover::after {
     width: 100%;
-    padding-left: 10px;
+   /* padding-left: 10px;*/
 }
+.active{
+    border-bottom:2px solid white;
 
+}
 nav .sub-menu {
     display: none;
 }
