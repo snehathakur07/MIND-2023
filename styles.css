@@ -7,6 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    max-width: 100vw;
 }
 ::selection {
     background-color: #162254; /* Set the background color */
@@ -157,7 +158,7 @@ h1{
 /****************************HEADER***********************************/
 .text-box {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 29rem;
     color: #ffff;
     z-index: 1;
