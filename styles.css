@@ -538,7 +538,7 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-
+    row-gap: 1rem;
     border-bottom: 3px solid white;
 }
 
@@ -574,10 +574,14 @@ h1{
 .vendate p,
 .row2 .org p {
     color: #fff;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
+    text-align: center;
 }
 
+p.date{
+    text-align: center;
+}
 .orgs {
     margin-top: 1.3rem;
 }
