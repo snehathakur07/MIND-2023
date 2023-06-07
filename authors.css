@@ -1,84 +1,45 @@
-.authors {
+
+.authors{
     font-family: sans-serif;
     /* height: 52vh; */
-    padding: 8rem 2rem 2rem 2rem;
+    padding: 10rem 2rem 2rem 2rem;
     /* padding-left: 1.4rem; */
     text-align: center;
+   
 }
+.head{
+    font-size:larger;
+    color:black;
+}
+.active{
+    border-bottom:2px solid white;
 
-table {
-    width: 100%;
-    max-width: 65vw;
-    border: 1px solid rgba(101, 17, 17, 0.856);
-    /* border-collapse: collapse; */
-    border-spacing: 0;
-    margin: auto;
-    margin-top: 2rem;
-    text-align: left;
-    word-wrap: break-word;
-    font-size: 19.2px;
-    border-radius: 5px;
-    box-shadow: 0 0 3px black;;
 }
-
-table th,
-table td {
-    border: 0.1px solid #651111;
-    padding: 1.3rem;
+.authors>h1{
+    text-transform: uppercase;
 }
-
-table th:not(table .noo) {
-    background-color: rgba(101, 17, 17, 0.37);
+#none{
+    list-style:none;
 }
-
-table .darker {
-    background-color: rgba(101, 17, 17, 0.189);
+.temp{
+    color:#651111;
+    font-size:16px;
+    text-decoration: underline;
 }
-
-
-@media(max-width:486px) {
-    /* table ,tr,td{
-        display: block;
-        width:10%;
-        max-width: 50vw;
-
-    } */
-    table th,
-    table td {
-        font-size: 15px;
-        padding: 0.5rem;
-    }
-}
-@media(max-width:412px){
-    /* table,tr,td{
-        width:9%;
-        max-width: 50vw;
-    } */
-    table th,
-    table td {
-        font-size: 15px;
-        padding: 0.5rem;
-    }
-}
-@media(max-width:350px){
-    /* table,tr,td{
-        width:100%;
-        max-width: 50vw;
-    } */
-    table th,
-    table td {
-        font-size: 14px;
-        padding: 0.3rem;
-    }
-}
-@media(max-width:334px){
-    /* table,tr,td{
-        width:100%;
-        max-width: 50vw;
-    } */
-    table th,
-    table td {
-        font-size: 12px;
-        padding: 0.3rem;
-    }
+.ins{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap:wrap;
+    /* height: 52vh; */
+    width:80%;
+    margin:0 auto;
+    padding: 1rem 0rem 2rem 0rem;
+    /* margin:0 8rem 0 8rem; */
+    font-size:16px;
+    /* list-style:; */
+    color:#777;
+    text-align: justify;
+    list-style: none;
+    /* padding-left: 1.4rem; */
 }
