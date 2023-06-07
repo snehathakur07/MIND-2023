@@ -18,6 +18,7 @@ button{
     cursor: pointer;
     border:none;
     text-decoration: none;
+    display:inline-block;
 }
 button:hover {
     /* border: 1px solid rgb(101, 17, 17); */
