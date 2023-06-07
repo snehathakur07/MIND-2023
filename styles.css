@@ -387,7 +387,7 @@ h1{
 
     .sub-menu {
         margin-bottom: 1rem;
-        margin-top:1rem;
+        padding-top:10px;
     }
 
     nav ul li:hover .sub-menu ul li {
