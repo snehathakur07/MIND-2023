@@ -18,14 +18,18 @@
 #reg{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     flex-wrap:wrap;
     /* height: 52vh; */
-    padding: 1rem 8rem 2rem 8rem;
+    width:80%;
+    margin:0 auto;
+    padding: 1rem 0rem 2rem 0rem;
+    /* margin:0 8rem 0 8rem; */
     font-size:16px;
     /* list-style:; */
     color:#777;
     text-align: justify;
+    list-style: none;
     /* padding-left: 1.4rem; */
 }
 table {
