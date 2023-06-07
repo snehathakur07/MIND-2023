@@ -2,7 +2,7 @@
 .authors{
     font-family: sans-serif;
     /* height: 52vh; */
-    padding: 10rem 2rem 2rem 2rem;
+    padding: 6.5rem 2rem 2rem 2rem;
     /* padding-left: 1.4rem; */
     text-align: center;
    
@@ -25,6 +25,7 @@
     color:#651111;
     font-size:16px;
     text-decoration: underline;
+    font-weight: 600;
 }
 .ins{
     display:flex;

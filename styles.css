@@ -91,11 +91,11 @@ nav ul li:hover .sub-menu {
     position: absolute;
     background-color: rgb(101, 17, 17);
     color: white;
-    margin-top: 1.45rem;
+    margin-top: 1.5rem;
     margin-left: 0rem;
     padding: 0rem 0rem 1rem 0rem;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0px 2px 5px black;
+    box-shadow: 0px 4px 5px black;
 }
 
 nav ul li:hover .sub-menu ul {
@@ -369,38 +369,25 @@ h1{
         position: relative;
         background-color: #0a0428;
         color: white;
-        width: 100%;
+        /* width: 100%; */
         /* margin-top:0rem; */
         /* margin-left:-1rem; */
         /* padding:1rem 1rem 1rem 1rem; */
         /* border-radius: 3px; */
+        box-shadow:none;
+        margin:0;
+        padding:0;
+        width:279px;
+        
     }
-
-    nav ul li:hover .sub-menu ul {
-        display: block;
-        /* text-align:left; */
-        margin: -2.5rem 1rem -2rem 2rem;
-        /* margin-top:-1.50rem;
-        margin-left:0rem; */
-        /* padding:0rem; */
+    
+    nav ul li:hover .sub-menu ul{
+        padding:0 !important;
+        margin:0;
+        margin-top:1rem;
+        background-color: white;
+        margin-left:-1.05rem;
     }
-
-    .sub-menu {
-        margin-bottom: 1rem;
-    }
-
-    nav ul li:hover .sub-menu ul li {
-
-        padding: 0rem 0rem 0rem 0rem;
-        margin: 0rem 0rem 0rem -2rem;
-        background: transparent;
-        text-align: right;
-        /* border-bottom: #ffffff43 solid 2px;   */
-    }
-
-    /* nav ul li:hover .sub-menu ul li:last-child {
-        margin-top: 1.45rem;
-    } */
 
     .committees ul li::after {
         content: '';
@@ -411,7 +398,15 @@ h1{
         margin: auto;
         transition: 0.5s;
     }
-
+    nav ul li:hover .sub-menu ul li{
+        margin: 0;
+        padding:0;
+        padding-top:0.5rem;
+        padding-left:0.5rem;
+        border:1px solid #162254;
+        width:300px;
+       
+    }
     .committees .sub-menu ul li:hover {
         border: none;
     }
@@ -439,6 +434,18 @@ h1{
     nav .sub-menu {
         z-index: 2;
     }
+    .committees{
+        display:flex !important;
+        flex-direction: column;
+        margin:0;
+        padding:0;
+    }
+    nav ul li:hover .sub-menu ul li a{
+        color:#162254;
+        font-weight: bold;
+        
+    }
+    
 }
 
 @media (max-width:1317px) {

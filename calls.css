@@ -1,6 +1,6 @@
 .calls {
     font-family: sans-serif;
-    padding: 8rem 2rem 2rem 2rem;
+    padding: 6.5rem 2rem 2rem 2rem;
     /* padding-left: 1.4rem; */
     text-align: center;
 }
@@ -12,7 +12,7 @@
 button{
     font-size:18px;
     height:6vh;
-    width:10vw;
+    width:10%;
     margin-top:15px;
     border-radius:5px;
     cursor: pointer;
@@ -82,19 +82,31 @@ button:hover {
     .tracks-column{
         width:40%;
     }
+    button{
+        width:30vw;
+    }
 }
 @media (max-width:789px) {
     .tracks-column{
         width:47%;
+    }
+    button{
+        width:50vw;
     }
 }
 @media(max-width:597px){
     .tracks-column{
         width:100%;
     }
+    button{
+        width:50vw;
+    }
 }
 @media(max-width:287px){
     .tracks-table h3{
         height:10vh;
+    }
+    button{
+        width:50vw;
     }
 }
