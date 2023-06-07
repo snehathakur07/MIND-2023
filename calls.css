@@ -5,6 +5,27 @@
     text-align: center;
 }
 
+.calls p{
+   margin-top:10px;
+   font-size:18px;
+}
+
+button{
+    font-size:18px;
+    height:6vh;
+    width:10vw;
+    margin-top:15px;
+    border-radius:5px;
+    cursor: pointer;
+    border:none;
+    text-decoration: none;
+}
+button:hover {
+    /* border: 1px solid rgb(101, 17, 17); */
+    background: rgb(101, 17, 17);
+    transition: 0.3s;
+    color:white;
+}
 .tracks-table {
     display: flex;
     flex-direction: row;
