@@ -44,3 +44,18 @@
     list-style: none;
     /* padding-left: 1.4rem; */
 }
+h2{
+    display:none;
+}
+@media(max-width:777px){
+    h2 {
+        display:block;
+        background-color: #0a0428ef;
+        width: 40vw;
+        color: white;
+        padding: 0.5rem;
+        /* padding-left:3rem; */
+        margin: auto;
+        border-radius: 0.4rem;
+    }
+}

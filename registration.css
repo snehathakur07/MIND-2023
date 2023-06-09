@@ -6,28 +6,36 @@
     text-align: center;
     margin-bottom: 0;
 }
-.note{
+
+.note {
+    /* width:fit-content; */
     list-style: none;
     font-size: larger;
     padding-bottom: 1rem;
-    color:black;
+    color: black;
 }
-#none{
-    list-style:none;
+
+#none {
+    list-style: none;
 }
-#reg{
-    display:flex;
+
+#reg {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     /* height: 52vh; */
     padding: 1rem 8rem 2rem 8rem;
-    font-size:16px;
+    font-size: 16px;
     /* list-style:; */
-    color:#777;
+    color: #777;
     text-align: justify;
     /* padding-left: 1.4rem; */
+    width: fit-content;
+    margin: auto;
+
 }
+
 table {
     width: 100%;
     max-width: 65vw;
@@ -43,8 +51,8 @@ table {
     box-shadow: 0 0 3px black;
 }
 
-   
-    
+
+
 
 table th,
 table td {
@@ -60,15 +68,16 @@ table .darker {
     background-color: rgba(101, 17, 17, 0.189);
 }
 
-@media(max-width:600px){
-    #reg{
-        padding:0 2rem;
+@media(max-width:600px) {
+    #reg {
+        padding: 0 2rem;
 
     }
 }
 
 
 @media(max-width:486px) {
+
     /* table ,tr,td{
         display: block;
         width:10%;
@@ -81,7 +90,9 @@ table .darker {
         padding: 0.5rem;
     }
 }
-@media(max-width:412px){
+
+@media(max-width:412px) {
+
     /* table,tr,td{
         width:9%;
         max-width: 50vw;
@@ -92,7 +103,9 @@ table .darker {
         padding: 0.5rem;
     }
 }
-@media(max-width:350px){
+
+@media(max-width:350px) {
+
     /* table,tr,td{
         width:100%;
         max-width: 50vw;
@@ -103,7 +116,9 @@ table .darker {
         padding: 0.3rem;
     }
 }
-@media(max-width:334px){
+
+@media(max-width:334px) {
+
     /* table,tr,td{
         width:100%;
         max-width: 50vw;
@@ -112,5 +127,23 @@ table .darker {
     table td {
         font-size: 12px;
         padding: 0.3rem;
+    }
+}
+
+h2 {
+    display: none;
+}
+
+@media(max-width:777px) {
+    h2 {
+        display: block;
+        background-color: #0a0428ef;
+        width: 40vw;
+        color: white;
+        padding: 0.5rem;
+        /* padding-left:3rem; */
+        margin: auto;
+        border-radius: 0.4rem;
+        margin-bottom:2rem;
     }
 }

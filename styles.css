@@ -102,18 +102,19 @@ nav ul li:hover .sub-menu {
 nav ul li:hover .sub-menu ul {
     display: block;
     /* text-align:left; */
-    margin: -1.2rem 1rem 0rem 0rem;
+    margin: -1.5rem 1rem -0.7rem 0rem;
     /* margin-top:-1.50rem;
     margin-left:0rem; */
-    /* padding:0rem; */
+    padding-left:1rem;
+    padding-top:2rem;
 }
 
 nav ul li:hover .sub-menu ul li {
     width: 255px;
-    padding: 1.3rem 0rem 1rem 0rem;
+    padding: 0.3rem 0rem 1rem 0rem;
     background: transparent;
     text-align: left;
-    height: 5vh;
+    height: 4vh;
 }
 
 /* nav ul li:hover .sub-menu ul li:first-child {
@@ -336,8 +337,11 @@ h1{
 
     .nav-links ul li {
         display: block;
+        text-align:center;
     }
-
+    .nav-links ul li a{
+        font-size:1.7rem;
+    }
     .nav-links {
         position: fixed;
         background: #0a0428;
@@ -363,7 +367,7 @@ h1{
     }
 
     .nav-links ul {
-        padding: 30px 30px 30px 0px;
+        padding: 30px;
     }
 
     nav .sub-menu {
@@ -383,8 +387,8 @@ h1{
         box-shadow:none;
         margin:0;
         padding:0;
-        width:279px;
-        
+        left:-31.5px;
+        width:280px;
     }
     
     nav ul li:hover .sub-menu ul{
@@ -407,11 +411,13 @@ h1{
     nav ul li:hover .sub-menu ul li{
         margin: 0;
         padding:0;
-        padding-top:0.5rem;
-        padding-left:0.5rem;
+        /* padding-top:0.5rem; */
+        /* padding-left:0.5rem; */
+        padding:0.5rem;
+        padding-bottom: 2rem;
         border:1px solid #162254;
         width:300px;
-       
+       text-align: center;
     }
     .committees .sub-menu ul li:hover {
         border: none;
@@ -449,7 +455,7 @@ h1{
     nav ul li:hover .sub-menu ul li a{
         color:#162254;
         font-weight: bold;
-        
+        font-size:1.3rem;
     }
     
 }
