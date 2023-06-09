@@ -1,0 +1,29 @@
+.contact {
+    font-family: sans-serif;
+    padding: 6.5rem 2rem 2rem 2rem;
+    /* padding-left: 1.4rem; */
+    text-align: center;
+}
+h2 {
+    display:block;
+    background-color: #0a0428ef;
+    width: 40vw;
+    color: white;
+    padding: 0.5rem;
+    /* padding-left:3rem; */
+    margin: auto;
+    border-radius: 0.4rem;
+}
+.contact a{
+    color:#777;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contact-sec{
+    margin-top:3.2rem;
+    margin-bottom:0.7rem;
+}
+.contact-sec p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
