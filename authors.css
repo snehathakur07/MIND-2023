@@ -7,6 +7,12 @@
     text-align: center;
    
 }
+p{
+    text-align: justify;
+    width: 80%;
+    margin:.5rem auto;
+    padding:0rem;
+}
 .head{
     font-size:larger;
     color:black;
@@ -34,7 +40,7 @@
     flex-wrap:wrap;
     /* height: 52vh; */
     width:80%;
-    margin:0 auto;
+    margin:0 auto 1.5rem auto;
     padding: 1rem 0rem 2rem 0rem;
     /* margin:0 8rem 0 8rem; */
     font-size:16px;
