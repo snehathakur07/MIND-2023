@@ -2,12 +2,12 @@
 .authors{
     font-family: sans-serif;
     /* height: 52vh; */
-    padding: 8.5rem 2rem 2rem 2rem;
+    padding: 8.6rem 2rem 2rem 2rem;
     /* padding-left: 1.4rem; */
     text-align: center;
    
 }
-p{
+.authors >p{
     text-align: justify;
     width: 80%;
     margin:.5rem auto;
