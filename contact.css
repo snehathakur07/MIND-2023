@@ -4,15 +4,12 @@
     /* padding-left: 1.4rem; */
     text-align: center;
 }
-h2 {
-    display:block;
-    background-color: #0a0428ef;
-    width: 40vw;
-    color: white;
-    padding: 0.5rem;
-    /* padding-left:3rem; */
-    margin: auto;
-    border-radius: 0.4rem;
+h1 {
+    /* padding-top:1rem; */
+    font-size: 36px;
+}
+h2{
+    display:none;
 }
 .contact a{
     color:#777;
@@ -26,4 +23,20 @@ h2 {
 .contact-sec p{
     font-size: 1.3rem;
     line-height: 2rem;
+}
+@media(max-width:777px) {
+    
+h1{
+    display:none;
+}
+    h2 {
+        display:block;
+        background-color: #0a0428ef;
+        width: 40vw;
+        color: white;
+        padding: 0.5rem;
+        /* padding-left:3rem; */
+        margin: auto;
+        border-radius: 0.4rem;
+    }
 }
