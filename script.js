@@ -28,5 +28,14 @@ document.getElementById("minute_value").innerHTML = minutes_data;
 document.getElementById("second_value").innerHTML = seconds_data;  
  }, 5);  
 
+var counter=1;
+setInterval(function(){
+    document.getElementById('radio'+counter).checked=true;
+    counter++;
+    if(counter>4){
+        counter=1;
+    }
+},5000);
+
 
 

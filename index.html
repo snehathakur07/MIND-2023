@@ -27,13 +27,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script src="https://kit.fontawesome.com/17dc185f30.js" crossorigin="anonymous"></script>
-           
+
+
+
 </head>
 
 <body>
     <nav id="navbar">
         <!-- Link logo -->
-        <a class="logo-pic" href="index.html"><img src="pictures/solidlogo.jpg" alt=""></a>
+        <a class="logo-pic" href="index.html"><img src="pictures/solidlogo.jpg" alt="mind-2023"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
 
@@ -61,6 +63,53 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
+    
+    <!-- image slider start  -->
+    <div class="slider">
+        <div class="slides">
+            <!-- radio buttons start  -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- radio buttons end  -->
+
+            <!-- slides images start  -->
+            <div class="slide first">
+                <img src="./pictures/gate.jpg" alt="NITH Gate" >
+            </div>
+            <div class="slide ">
+                <img src="./pictures/admin.jpg" alt="Admin Block, NITH">
+            </div>
+            <div class="slide ">
+                <img src="./pictures/night-sp.jpg" alt="Students' Park, NITH">
+            </div>
+            <div class="slide ">
+                <img src="./pictures/night-gate.jpg" alt="NITH Gate">
+            </div>
+            <!-- slides images end -->
+
+            <!-- autommatic navigation start  -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- automatic navigation ends -->
+        </div>
+        <!-- manual nav start  -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!-- manual navigation end  -->
+    </div>
+
+
+
     <div class="text-box">
         <p class="conf">5th International Conference on Machine Learning, Image Processing, Network Security and
             Data
@@ -352,7 +401,7 @@
         <div class="footer-sections">
             <h3 class="nit">ORGANIZER</h3>
             <div class="logo-footer">
-                <a href="https://nith.ac.in" target="_blank"><img src="pictures/NITH.png"></a>
+                <a href="https://nith.ac.in" target="_blank"><img src="pictures/NITH.png" alt="NITH Logo"></a>
             </div>
         </div>
 
