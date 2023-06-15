@@ -466,9 +466,9 @@ h1 {
     color: #fff;
 }
 
-/* #dates li {
-    text-align: justify;
-} */
+#dates li {
+    text-align: left !important;
+}
 
 /* .box:hover .description {
     color: rgba(255, 255, 255, 0.8);
