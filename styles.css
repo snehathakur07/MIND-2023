@@ -353,16 +353,16 @@ h1 {
 @media(max-width:595px){
     .slider{
         height:40rem;
-        margin-bottom:-41rem;
+        margin-bottom:-36rem;
     }
     .slider img{
-        height:27rem;
+        height:28rem;
     }
     .text-box{
-        height:30px;
+        height:30rem;
     }
     .navigation-manual{
-        margin-top:-148px;
+        margin-top:-148.5px;
     }
     .navigation-auto{
         margin-top: 459.5px;
@@ -370,6 +370,23 @@ h1 {
     .text-box .conf{
         margin: 5rem 0 2rem;
     }
+}
+@media(max-width:477px){
+    .slider{
+        margin-bottom:-40rem;
+    }
+}
+@media(max-width:401px){
+    .navigation-manual{
+        margin-top:-129px;
+    }
+    .navigation-auto{
+        margin-top: 479.5px;
+    }
+}
+p.conf:first-child{
+    line-height: 2rem;
+    margin-bottom:-2rem;
 }
 /*************************************BOXES******************************/
 .container {
@@ -382,7 +399,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 1.3rem;
+    row-gap: 3rem;
 }
 
 /* .box{
@@ -410,7 +427,7 @@ h1 {
 }
 
 .box {
-    height: 243px;
+    height: 19rem;
     width: 23rem;
 }
 
@@ -624,6 +641,9 @@ h1 {
         color: #162254;
         font-weight: bold;
         font-size: 1.3rem;
+    }
+    .slides img{
+        margin-top:3rem;
     }
 
 }
