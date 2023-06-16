@@ -32,7 +32,7 @@
 
 </head>
 
-<body>
+<body><div class="first">
     <nav id="navbar">
         <!-- Link logo -->
         <a class="logo-pic" href="index.html"><img src="pictures/solidlogo.jpg" alt="mind-2023"></a>
@@ -63,60 +63,35 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
-    
+
     <!-- image slider start  -->
-    <div class="slider">
-        <div class="slides">
-            <!-- radio buttons start  -->
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-            <!-- radio buttons end  -->
+    <div class="slideshowContainer">
+        <img class="imageSlides" src="./pictures/gate.jpg" alt="NITH-gate">
+        <img class="imageSlides" src="./pictures/admin.jpg" alt="NITH-Admin Block">
+        <img class="imageSlides" src="./pictures/night-gate.jpg" alt="NITH-gate at night">
+        <img class="imageSlides" src="./pictures/night-sp.jpg" alt="NITH- Students' Part at night">
+        <span id="leftArrow" class="slideshowArrow">&#8249;</span>
+        <span id="rightArrow" class="slideshowArrow">&#8250;</span>
 
-            <!-- slides images start  -->
-            <div class="slide first">
-                <img src="./pictures/gate.jpg" alt="NITH Gate" >
-            </div>
-            <div class="slide ">
-                <img src="./pictures/admin.jpg" alt="Admin Block, NITH" >
-            </div>
-            <div class="slide ">
-                <img src="./pictures/night-gate.jpg" alt="Students' Park, NITH">
-            </div>
-            <div class="slide ">
-                <img src="./pictures/night-sp.jpg" alt="NITH Gate">
-            </div>
-            <!-- slides images end -->
+        <div class="slideshowCircles">
+            <span class="circle dot"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
 
-            <!-- autommatic navigation start  -->
-            <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
-            <!-- automatic navigation ends -->
-        </div>
-        <!-- manual nav start  -->
-        <div class="navigation-manual">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-        <!-- manual navigation end  -->
     </div>
 
 
-
     <div class="text-box">
-        <p class="conf">5th International Conference on Machine Learning, Image Processing, Network Security and
-            Data
-            Sciences</p>
-        <h1>MIND 2023</h1>
-        <p class="venue">21-22 December, 2023 | National Institute of Technology, Hamirpur, HP-177005, INDIA</p>
-        <a href="#about" class="hero-btn">About Mind 2023</a>
+        <div class="text">
+            <p class="conf"><span class="fifth-int-conf">5th International Conference on</span><br>
+                <span class="full-form">Machine Learning, Image Processing, Network Security and Data Sciences</span>
+            </p>
+            <h1>MIND 2023</h1>
+            <p class="venue">21-22 December, 2023 | National Institute of Technology, Hamirpur, HP-177005, INDIA</p>
+            <a href="#about" class="hero-btn">About Mind 2023</a>
+        </div>
     </div>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css /> -->
     <div class="container">
@@ -125,9 +100,9 @@
 
                 <h3 class="title">LATEST UPDATES</h3>
 
-                <ul class="description updates" >
+                <ul class="description updates">
                     <marquee behavior="SCROLL" direction="up" height="200rem">
-                        <li><b><i>MIND 2023 website is live</i></b></li>
+                        <!-- <li><b><i>MIND 2023 website is live</i></b></li> -->
                         <li><b><i>Paper Submission is now open!</i></b></li>
                         <!-- <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
                         <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus!</li>
@@ -418,6 +393,7 @@
     <!-- Java Script for toggle menu -->
     <script src="script.js">
     </script>
+    <script src="function.js"></script>
 </body>
 
 </html>
