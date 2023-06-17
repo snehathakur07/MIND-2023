@@ -20,7 +20,7 @@
 body {
     overflow-x: hidden;
     align-items: center;
-    background-color: rgba(107, 17, 17, 0.007);
+    background-color: rgba(107, 17, 17, 0.1);
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +161,15 @@ nav .fa {
 h1 {
     font-size: 36px;
 }
-
+/* .section-header::after{
+    content:"";
+    position:absolute;
+    height:4px;
+    display:block;
+    background:#162254;
+    width:50px;
+    left:48.5%;
+} */
 .sub-menu ul {
     font-size: 0em;
     padding-top: 1rem;
@@ -736,7 +744,7 @@ p.conf:first-child {
     }
 
     .container {
-        padding-top: 3.5rem;
+        padding-top: 0rem;
     }
 }
 
@@ -856,7 +864,7 @@ p.conf:first-child {
     justify-content: space-around;
     background-color: rgb(101, 17, 17);
     border-radius: 10px;
-    box-shadow: 0px 3px 10px black;
+    box-shadow: 0px 0px 10px black;
 }
 
 .vendate {
@@ -953,6 +961,7 @@ p {
     justify-content: space-around;
     border-radius: 10px;
     /* background: #fff3f3; */
+    box-shadow: 0px 0px 10px black;
     background-color: rgb(101, 17, 17);
 }
 
@@ -1169,6 +1178,7 @@ h3 {
 .contact-section-bg {
     padding: 3rem;
     width: 80%;
+    box-shadow: 0px 0px 10px black;
     background-color: rgb(101, 17, 17);
     border-radius: 20px;
     margin: auto;
@@ -1275,6 +1285,7 @@ iframe {
     display: flex;
     margin-bottom: -5rem;
     padding: 0.8rem 0rem 2rem 0rem;
+    box-shadow: 0px 0px 10px black;
     background: rgb(101, 17, 17);
     /* width: 100%; */
     /* height: 40vh; */
