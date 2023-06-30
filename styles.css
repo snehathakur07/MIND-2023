@@ -766,6 +766,9 @@ p.conf:first-child {
     .slideshowCircles {
         margin-top: -2rem;
     }
+    .container{
+        top:1rem;
+    }
 }
 
 @media(max-width:355px) {
