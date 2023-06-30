@@ -1233,8 +1233,8 @@ h3 {
     display: inline-block;
 }
 
-i:not(marquee i, .text-box i) {
-    color: #ababab;
+i:not(marquee i, .text-box i,nav i) {
+    color: #ffffff;
 }
 
 .info {
