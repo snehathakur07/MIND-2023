@@ -697,6 +697,8 @@ p.conf:first-child {
 
 }
 
+
+
 @media(max-width:735px) {
     .text-box {
         margin-top: -1.3rem;
@@ -705,15 +707,12 @@ p.conf:first-child {
     .imageSlides {
         margin-top: -1.3rem;
     }
-}
-
-@media(max-width:735px) {
     .text-box h1 {
         font-size: 4.2rem;
     }
 
     .text-box .conf {
-        font-size: 22px;
+        font-size:19px;
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 0rem;
@@ -795,7 +794,7 @@ p.conf:first-child {
     }
 
     .text-box .venue {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .fifth-int-conf {
