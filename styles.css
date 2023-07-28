@@ -1050,13 +1050,19 @@ h3 {
 } */
 
 
-@media(max-width:350px){
+@media(max-width:419px){
     .speakers img{
         height:95%;
         width:95%;
     }
     .speaker-tiles{
         margin:0 2rem;
+    }
+}
+@media(max-width:410px){
+    .speakers img{
+        height:98%;
+        width:98%;
     }
 }
 /* *******************endorsements**************** */
