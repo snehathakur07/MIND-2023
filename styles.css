@@ -40,8 +40,6 @@ nav {
     width: 100vw;
     /* overflow-x: hidden; */
     margin-right: 10px;
-    width: 100vw;
-
 }
 
 nav img {
@@ -943,7 +941,8 @@ p.date {
 
 /************************************SPEAKERS***************************** */
 .speakers{
-    /* width:fit-content; */
+    width:80%;
+    margin:auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -984,10 +983,9 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-radius: 10px;
     /* box-shadow: 0px 0px 10px black; */
     /* background-color: rgb(101, 17, 17); */
-    border:2px solid rgb(101, 17, 17);
+    gap:3rem;
 }
 
 .speaker-info h3 {
@@ -999,6 +997,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    border:2px solid rgb(101, 17, 17);
     gap:1rem;
 }
 /* .tile img{
