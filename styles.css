@@ -103,7 +103,7 @@ nav ul li:hover .sub-menu {
     margin-left: 0rem;
     padding: 0rem 0rem 1rem 0rem;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0px 4px 5px black;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.534)    ;
 }
 
 nav ul li:hover .sub-menu ul {
@@ -991,7 +991,7 @@ p {
     /* color: white; */
 }
 
-.tile{
+.speaker-tiles .tile{
     display:flex;
     flex-direction: column;
     justify-content: center;
