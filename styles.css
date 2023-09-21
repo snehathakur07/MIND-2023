@@ -972,8 +972,8 @@ p {
 }
 
 .speaker-tiles {
-    /* width: 80%; */
-    width:fit-content;
+    /* width: 90%; */
+    /* width:fit-content; */
     margin: auto;
     /* padding:2rem 2rem 0 2rem; */
     text-align: center;
@@ -987,8 +987,9 @@ p {
     gap:3rem;
 }
 
-.speaker-info h3 {
+.speaker-info p {
     /* color: white; */
+    font-size:15px;
 }
 
 .speaker-tiles .tile{
