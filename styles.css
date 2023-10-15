@@ -390,16 +390,18 @@ p.conf:first-child {
     scrollbar-width: none;
     /* position: relative; */
     column-gap: 1.3rem;
-
-}
-
-.box::-webkit-scrollbar {
-    display: none;
-}
-
-.box {
-    height: 19rem;
+       height: 19rem;
     width: 23rem;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.118);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.154);
+}
+.box::-webkit-scrollbar {
+    width:0.5rem;
 }
 
 /* .box:hover {
