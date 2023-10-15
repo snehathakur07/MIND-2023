@@ -478,6 +478,8 @@ p.conf:first-child {
     text-align: center;
 }
 
+
+
 /***************************MEDIA QUERIES**************************/
 @media(min-width:1500px) {
     nav img {
