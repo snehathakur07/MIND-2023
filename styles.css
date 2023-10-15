@@ -386,16 +386,18 @@ p.conf:first-child {
     transition: all 0.3s ease 0s;
     color: black;
     /* border: 1px solid rgba(101, 17, 17, 0.699);   */
+    
     overflow-y: scroll;
-    scrollbar-width: none;
+    scrollbar-width: 10px;
     /* position: relative; */
     column-gap: 1.3rem;
-       height: 19rem;
+    height: 19rem;
     width: 23rem;
+
 }
-
-
-
+/* ::-webkit-scrollbar {
+    -webkit-appearance: none;
+} */
 ::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.118);
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.154);
@@ -403,6 +405,7 @@ p.conf:first-child {
 .box::-webkit-scrollbar {
     width:0.5rem;
 }
+
 
 /* .box:hover {
     border: none;
@@ -420,6 +423,9 @@ p.conf:first-child {
     text-transform: capitalize;
     margin: 0 0 10px;
     transition: all 0.3s ease 0s;
+    position: absolute;
+    z-index: 10;
+    width: inherit;
     /* position: relative; */
     /* top:0; */
     /* z-index:1; */
@@ -443,7 +449,10 @@ p.conf:first-child {
 
     font-size: 1.1rem; */
 }
-
+.box .description{
+    margin-top:2rem;
+    
+}
 .box ul li {
     list-style: none;
     padding: 0.6rem 2rem;
