@@ -485,6 +485,11 @@ p.conf:first-child {
         height: 67px;
         margin: -12px 1px -15px -60px;
     }
+    .row{
+        /* column-gap:1rem; */
+        width:80%;
+        margin:auto;
+    }
 }
 
 @media(max-width:1350px) {
