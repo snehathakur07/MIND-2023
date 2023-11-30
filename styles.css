@@ -29,7 +29,7 @@ body {
 
 /*******************************NAVIGATION BAR*****************************************/
 nav {
-    z-index: 10;
+    z-index: 11;
     display: flex;
     padding: 0.8% 4%;
     justify-content: space-between;
@@ -186,31 +186,30 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58));
     background-position: center;
     background-size: cover;
-
     top: 4.5rem;
+    /* display:flex; */
+    /* justify-content: space-around; */
+    /* padding:0 2rem; */
+    
 }
 
 .text {
-
     display: flex;
     flex-direction: column;
     margin-top: 0rem;
+    width:100%;
 }
 
 .text .conf {
-
-
     width: 100vw;
-    padding-top: 1rem;
     margin: 2rem 0 2rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #ffff;
     word-spacing: 0.5px;
     letter-spacing: 0.5px;
 }
 
 .conf .full-form {
-
 
     /* font-style:italic; */
     font-weight: 900;
@@ -234,7 +233,7 @@ h1 {
 .text .venue {
 
     margin: 10px 0 40px;
-    font-size: 1.45rem;
+    font-size: 1.3rem;
     color: #ffff;
     /* font-style: italic; */
     font-weight: 900;
@@ -677,6 +676,7 @@ p.conf:first-child {
         flex-direction: column;
         padding: 45px 0px 0px 0px;
         flex-wrap: wrap;
+        
     }
 
     .header .text-box {
@@ -1090,17 +1090,25 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    margin-top:-8rem;
+    display: flex;
+    justify-content:space-around;
+    column-gap:5rem;
+    flex-wrap:wrap;
 }
 
 .endorse-row {
     display: flex;
     flex-direction: row;
     padding: 45px 0px 0px 0px;
+    justify-content: center;
+    column-gap:10rem;
+    row-gap:1rem;
 }
 
 .endorse-cols img {
-    height: 51px;
-    width: 176px;
+    /* height: 51px;
+    width: 176px; */
     margin: 0px 0px 0px 0px;
 }
 
