@@ -1381,6 +1381,7 @@ iframe {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 5rem;
+    
 }
 
 .footer .team {
@@ -1464,6 +1465,7 @@ iframe {
 
 body {
     width: 100vw;
+    
 }
 
 @media(max-width:785px) {

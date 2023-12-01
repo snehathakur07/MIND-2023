@@ -40,3 +40,18 @@ h1{
         border-radius: 0.4rem;
     }
 }
+.contact{
+    
+}
+.footer{
+    position:absolute;
+    bottom: 0;
+    margin-bottom: 0 !important;
+    margin-top:0  !important;
+}
+.footer p.copyright{
+    color:black;
+}
+.copyright{
+    position:absolute;
+}
