@@ -7,20 +7,21 @@
     margin-bottom: 0;
 
 }
-
+/* 
 . {
-    /* width:fit-content; */
+    /* width:fit-content; 
     list-style: none;
     font-size: larger;
     padding-bottom: 1rem;
     color: black;
-}
+} */
 
 #none {
     list-style: none;
 }
 .proc p {
-    text-align: left;
+    text-align: justify;
+
     margin: auto;
     padding: 1rem 8rem 2rem 8rem;
 }
@@ -77,5 +78,10 @@
         margin: auto;
         border-radius: 0.4rem;
         margin-bottom: 2rem;
+    }
+}
+@media(max-width:601px){
+    .proc p{
+        padding:1rem 0.5rem;
     }
 }
