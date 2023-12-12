@@ -1086,7 +1086,7 @@ h3 {
 }
 /* *******************endorsements**************** */
 .endorsements {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -1102,7 +1102,7 @@ h3 {
     flex-direction: row;
     padding: 45px 0px 0px 0px;
     justify-content: center;
-    column-gap:10rem;
+    column-gap:8rem;
     row-gap:1rem;
 }
 
