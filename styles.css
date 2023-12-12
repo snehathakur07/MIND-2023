@@ -1090,7 +1090,7 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    margin-top:-8rem;
+    margin-top:-10rem;
     display: flex;
     justify-content:space-around;
     column-gap:5rem;
@@ -1104,6 +1104,7 @@ h3 {
     justify-content: center;
     column-gap:8rem;
     row-gap:1rem;
+    margin-top:-2rem;
 }
 
 .endorse-cols img {
