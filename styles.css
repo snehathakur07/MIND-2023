@@ -358,7 +358,15 @@ p.conf:first-child {
     margin-bottom: -2rem;
 }
 
+.proceedings.container{
+    top:-3.5rem;
+    margin-bottom:2rem;
+    text-align: center;
+    font-style: italic;
+}
+
 /*************************************BOXES******************************/
+
 .container {
     position: relative;
     top: -3rem;
@@ -1326,14 +1334,17 @@ i:not(marquee i, .text-box i, nav i) {
 
 @media (max-width:777px) {
     .info {
-        padding: 1rem 0rem 1rem 0rem;
+        padding: 1rem;
         align-items: center;
+    }
+    .contact-section-bg{
+        padding:1rem;
     }
 }
 
 iframe {
-    width: 40rem;
-    height: 30rem;
+    width: 18rem;
+    height: 23rem;
     /* left: 0;
     top: 0; */
     border: 0;
