@@ -371,7 +371,7 @@ p.conf:first-child {
 }
 .proceedings.container i.fa-solid{
     font-size:15px;
-    color:blue;
+    color:#162254
 }
 /*************************************BOXES******************************/
 
@@ -491,7 +491,7 @@ p.conf:first-child {
 }
 @media (min-width:1350px){
     .text-box{
-        height:30rem;
+        /* height:30rem; */
     }
 }
 @media (max-width:1317px) {
