@@ -358,9 +358,6 @@ h1 {
     border: solid 2px rgba(255, 255, 255, 0.5);
 }
 
-
-
-
 p.conf:first-child {
     line-height: 2rem;
     margin-bottom: -2rem;
@@ -372,7 +369,10 @@ p.conf:first-child {
     text-align: center;
     font-style: italic;
 }
-
+.proceedings.container i.fa-solid{
+    font-size:15px;
+    color:blue;
+}
 /*************************************BOXES******************************/
 
 .container {
@@ -401,18 +401,13 @@ p.conf:first-child {
     transition: all 0.3s ease 0s;
     color: black;
     /* border: 1px solid rgba(101, 17, 17, 0.699);   */
-    
     overflow-y: scroll;
     scrollbar-width: 10px;
-    /* position: relative; */
     column-gap: 1.3rem;
     height: 19rem;
     width: 23rem;
 
 }
-/* ::-webkit-scrollbar {
-    -webkit-appearance: none;
-} */
 ::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.118);
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.154);
@@ -420,12 +415,6 @@ p.conf:first-child {
 .box::-webkit-scrollbar {
     width:0.5rem;
 }
-
-
-/* .box:hover {
-    border: none;
-    background: rgba(107, 17, 17);
-} */
 
 .box .title {
     border-radius: 10px 10px 0 0;
@@ -441,9 +430,6 @@ p.conf:first-child {
     position: absolute;
     z-index: 10;
     width: inherit;
-    /* position: relative; */
-    /* top:0; */
-    /* z-index:1; */
 }
 
 .box .description {
@@ -455,14 +441,8 @@ p.conf:first-child {
 }
 
 .description a {
-    /* display:flex;
-    justify-content: center; */
     color: #162254;
     text-decoration: underline;
-    /* margin: 0 0 0px;
-    transition: all 0.3s ease 0s;
-
-    font-size: 1.1rem; */
 }
 .box .description{
     margin-top:2rem;
@@ -471,10 +451,6 @@ p.conf:first-child {
 .box ul li {
     list-style: none;
     padding: 0.6rem 2rem;
-    /* padding-left:4rem; */
-    /* text-align: justify; */
-    /* letter-spacing:px; */
-
 }
 
 .box:hover .title {
@@ -484,10 +460,6 @@ p.conf:first-child {
 #dates li {
     text-align: left !important;
 }
-
-/* .box:hover .description {
-    color: rgba(255, 255, 255, 0.8);
-} */
 
 .updates li {
     text-align: center;
@@ -503,7 +475,6 @@ p.conf:first-child {
         margin: -12px 1px -15px -60px;
     }
     .row{
-        /* column-gap:1rem; */
         width:80%;
         margin:auto;
     }
@@ -518,7 +489,11 @@ p.conf:first-child {
         margin-top: -0.2rem;
     }
 }
-
+@media (min-width:1350px){
+    .text-box{
+        height:30rem;
+    }
+}
 @media (max-width:1317px) {
     .about .intro h1 {
         margin-top: 8rem;
@@ -734,8 +709,12 @@ p.conf:first-child {
 
 
 @media(max-width:735px) {
+    .text{
+        transform: scale(0.9);
+    }
     .text-box {
         margin-top: -1.3rem;
+        height:29.3rem;
     }
 
     .imageSlides {
@@ -751,7 +730,7 @@ p.conf:first-child {
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 0rem;
-        margin-top:1rem;
+        margin-top:-0.5rem;
     }
 
     .text-box .venue {
@@ -762,14 +741,26 @@ p.conf:first-child {
         margin-top: -11rem;
     } */
     .slideshowCircles {
-        margin-top: -5rem;
+        margin-top: -7rem;
+        transform: scale(0.9);
+        width:100vw;
+        left:0%;
     }
 }
-
+@media(max-width:1000px){
+    .container{
+        top:-4rem;
+    }
+}
+@media (max-width:1350px) and (min-width:735px) {
+    .text-box{
+        height:32.7rem;
+    }
+}
+/* 
 @media(max-width:476px) {
     #leftArrow , #rightArrow {
-        /* position: absolute; */
-        /* left: 4%; */
+        
         top: 35%;
     }
     .text-box {
@@ -804,7 +795,7 @@ p.conf:first-child {
     }
 
     .imageSlides {
-        /* margin-top: 1.2rem; */
+        margin-top: 1.2rem;
     }
 
     .slideshowCircles {
@@ -828,11 +819,11 @@ p.conf:first-child {
 
     .text-box,
     .imageSlides {
-        /* height: 31rem; */
+        height: 31rem;
     }
 
     .imageSlides {
-        /* margin-top: 1.2rem; */
+        margin-top: 1.2rem;
     }
 
     .slideshowCircles {
@@ -876,7 +867,7 @@ p.conf:first-child {
     .text h1 {
         font-size: 2rem;
     }
-}
+} */
 
 /********************************ABOUT*************************************/
 .about {
