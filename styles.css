@@ -773,13 +773,14 @@ p.conf:first-child {
         font-size: 3.5rem;
     }
 
-    .imageSlides {
+    .day-2 {
         height: 30rem;
-        
     }
-
+    .imageSlides{
+        height:30rem;
+    }
     .container {
-        padding-top: 0rem;
+        /* top:2rem; */
     }
     
 } 
