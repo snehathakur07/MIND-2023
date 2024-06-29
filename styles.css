@@ -757,22 +757,24 @@ p.conf:first-child {
         height:32.7rem;
     }
 }
-/* 
 @media(max-width:476px) {
     #leftArrow , #rightArrow {
         
         top: 35%;
     }
     .text-box {
-        height: 25rem;
+        height: 30rem;
     }
-
+    .text{
+        padding-top:2rem;
+        transform: scale(1);
+    }
     .text h1 {
         font-size: 3.5rem;
     }
 
     .imageSlides {
-        height: 25rem;
+        height: 30rem;
         
     }
 
@@ -781,6 +783,7 @@ p.conf:first-child {
     }
     
 } 
+/* 
 @media(max-width:370px) {
     .text h1 {
         padding-left: 2rem;
