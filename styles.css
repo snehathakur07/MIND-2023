@@ -757,13 +757,10 @@ p.conf:first-child {
         height:32.7rem;
     }
 }
-@media(max-width:476px) {
+@media(max-width:500px) {
     #leftArrow , #rightArrow {
         
         top: 35%;
-    }
-    .text-box {
-        height: 30rem;
     }
     .text{
         padding-top:2rem;
@@ -772,11 +769,11 @@ p.conf:first-child {
     .text h1 {
         font-size: 3.5rem;
     }
-
-    .day-2 {
+    .text-box {
         height: 30rem;
     }
     .imageSlides{
+        margin-top:-2rem;
         height:30rem;
     }
     .container {
