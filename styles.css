@@ -772,11 +772,8 @@ p.conf:first-child {
         height: 30rem;
     }
     .imageSlides{
-        margin-top:-2rem !important;
+        margin-top:-4rem !important;
         height:30rem;
-    }
-    .imageSlides:not(.day-2){
-        height:28rem;
     }
     .container {
         /* top:2rem; */
