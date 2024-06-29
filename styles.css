@@ -775,6 +775,9 @@ p.conf:first-child {
         margin-top:-2rem !important;
         height:30rem;
     }
+    .imageSlides:not(.day-2){
+        height:28rem;
+    }
     .container {
         /* top:2rem; */
     }
