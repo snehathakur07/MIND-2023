@@ -758,8 +758,7 @@ p.conf:first-child {
     }
 }
 @media(max-width:500px) {
-    #leftArrow , #rightArrow {
-        
+    #leftArrow , #rightArrow {        
         top: 35%;
     }
     .text{
@@ -773,7 +772,7 @@ p.conf:first-child {
         height: 30rem;
     }
     .imageSlides{
-        margin-top:-2rem;
+        margin-top:-2rem !important;
         height:30rem;
     }
     .container {
